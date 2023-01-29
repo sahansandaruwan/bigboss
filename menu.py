@@ -4,14 +4,14 @@ def menus():
 
         
   🔰 List - .list
-  
-  🔰 Random quote - .quote
 
   🔰 Alive - .alive
 
   🔰 Update - .update
 
   🔰 Random Picture - .pic
+
+  🔰 Random quote - .quote
 
   🔰 Search Engine - .google
 
