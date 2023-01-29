@@ -1,11 +1,5 @@
 import requests
 
-
-
-
-
-
-
 def quote():
 
   
