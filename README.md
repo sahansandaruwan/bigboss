@@ -76,4 +76,4 @@ Change the contents of this file ```config.py ```
  #
  
  ### Disclaimer
-`Discord` name, its variations and the logo are registered trademarks of Facebook. We have nothing to do with the registered trademark
+
