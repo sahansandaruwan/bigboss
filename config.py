@@ -1,5 +1,4 @@
 
-
 config = {
   'pic_url' : 'https://i.ibb.co/z5wChd6/OIP-2.jpg',
 
