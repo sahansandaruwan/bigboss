@@ -216,7 +216,7 @@ async def on_message(message):
           await message.channel.send(embed=status.status(message))
 
         except:
-            embed = discord.Embed(title= _error, description= _errorMsg, color=color.emcolor())
+            embed = discord.Embed(title= _error, description= 'This command work only in the channel', color=color.emcolor())
             await message.channel.send(embed=embed)
             
 
