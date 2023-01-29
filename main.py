@@ -1,6 +1,5 @@
 
 import requests
-import json
 import os
 import discord
 from plugin import quote
