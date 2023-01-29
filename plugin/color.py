@@ -1,4 +1,4 @@
-#000000: Black
+
 #FFFFFF: White
 #FF0000: Red
 #00FF00: Lime
