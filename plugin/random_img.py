@@ -8,13 +8,6 @@ def random_img():
       url = f'https://picsum.photos/id/{id}/200/300'
       return url
 
-
-
-      #url = "https://picsum.photos/seed/picsum/info"
-      #embed = discord.Embed()
-      #embed.set_image(url=url)
-      #return message.channel.send(embed=embed)
-
 random_img()
     
   
