@@ -40,7 +40,7 @@ Change the contents of this file ```config.py ```
 
 ```python
 
-  'pic_url' : 'https://i.ibb.co/z5wChd6/OIP-2.jpg', #edit
+  'pic_url' : 'https://i.ibb.co/z5wChd6/OIP-2.jpg', #alive_picture
 
   'TOKEN' : 'Enter_You_BOT_TOKEN', #edit
 
