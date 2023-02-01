@@ -2,7 +2,7 @@
 
 
 <div align="center">
-  <img src="https://i.ibb.co/z5wChd6/OIP-2.jpg" width="350" height="350">
+  <img src="https://sandaruwan-img-host.pages.dev/88976667.png" width="350" height="350">
 
 
 
