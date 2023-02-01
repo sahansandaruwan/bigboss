@@ -1,6 +1,6 @@
 
 config = {
-  'pic_url' : 'https://i.ibb.co/z5wChd6/OIP-2.jpg',
+  'pic_url' : 'https://sandaruwan-img-host.pages.dev/88976667.png',
 
   'TOKEN' : 'Enter_You_BOT_TOKEN',
 
