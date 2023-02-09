@@ -59,7 +59,7 @@ Change the contents of this file ```config.py ```
 
 ```'channel_id'``` Enter your discord channel ID number here. [readmore](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-)
 
-```main.py``` This is the main file. Run this to make the bot work
+```app.py``` This is the main file. Run this to make the bot work
 #
 
 # Developer
