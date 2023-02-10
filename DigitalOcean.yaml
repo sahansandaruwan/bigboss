@@ -6,10 +6,10 @@ spec:
       branch: master
       repo_clone_url: https://github.com/sahansandaruwan/bigboss.git
       envs:
-      - key: DB_FOO_1
-        value: "DB-password-testvalue"
+      - key: test
+        value: "test"
         type: SECRET
-      - key: EMAIL
+      - key: test2
         scope: RUN_TIME
-      - key: MESSAGE
-        value: "This is a greeting message"
+      - key: test3
+        value: "test"
