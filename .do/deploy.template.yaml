@@ -1,15 +1,12 @@
-spec:
-  name: bigboss
-  services:
-  - environment_slug: python
+services:
+  - name: bigboss
     git:
+      repo: "https://github.com/sahansandaruwan/bigboss"
       branch: master
-      repo_clone_url: https://github.com/sahansandaruwan/bigboss.git
-      envs:
-      - key: test
-        value: "test"
-        type: SECRET
-      - key: test2
-        scope: RUN_TIME
-      - key: test3
-        value: "test"
+    envs:
+    - key: BUILD_ONLY_VAR
+      scope: BUILD_TIME
+      value: hello world
+    - key: RUNTIME_ONLY_VAR
+      scope: RUN_TIME
+      value: i'm a little teapot
