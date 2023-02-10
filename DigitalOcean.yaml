@@ -1,0 +1,8 @@
+spec:
+  name: bigboss
+  services:
+  - environment_slug: python
+    git:
+      branch: master
+      repo_clone_url: https://github.com/sahansandaruwan/bigboss.git
+    name: bigboss
