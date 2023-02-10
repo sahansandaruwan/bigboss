@@ -1,1 +1,15 @@
-//
+spec:
+  name: bigboss
+  services:
+  - environment_slug: python
+    git:
+      branch: master
+      repo_clone_url: https://github.com/sahansandaruwan/bigboss.git
+      envs:
+      - key: test
+        value: "test"
+        type: SECRET
+      - key: test2
+        scope: RUN_TIME
+      - key: test3
+        value: "test"
