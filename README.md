@@ -61,8 +61,6 @@ Change the contents of this file ```config.py ```
 
 ```app.py``` This is the main file. Run this to make the bot work
 #
-[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud#.digitalocean.com/apps/new?repo=https://github.com/sahansandaruwan/bigboss/tree/master)
-
 
 # Developer
 <div align="center">

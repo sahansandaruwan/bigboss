@@ -3,21 +3,24 @@ def menus():
   return """
 
         
-  🔰 List - .list
+  ```🔰 List``` \n .list
 
-  🔰 Alive - .alive
+  ```🔰 Alive``` \n .alive
 
-  🔰 Update - .update
+  ```🔰 Update ```\n .update
 
-  🔰 Random Picture - .pic
+  ```🔰 Random Picture ```\n .pic
 
-  🔰 Random quote - .quote
+  ```🔰 Random quote``` \n.quote
 
-  🔰 Search Engine - .google
+  ```🔰 Search Engine``` \n .google
 
-  🔰 Server Status - .status
+  ```🔰 Server Status ```\n .status
 
-  🔰 Clean Channel Messages - .clear
+  ```🔰 Clean Channel Messages ```\n .clear
+
+  ```🔰 Developer info``` \n .dev
+
 
 
 

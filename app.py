@@ -52,17 +52,20 @@ client = discord.Client(intents=intents)
 
 @client.event
 async def on_ready():
+    color.printbanner()
     print(f'We have logged in as {client.user}')
     print(_active)
-    print(_dev)
-    channel_id = int(_ChannelId)
-    channel = client.get_channel(channel_id)
-    embed = discord.Embed(title="Online", description='Bot is online', color=color.emcolor())
-
-    if isinstance(channel, discord.TextChannel) or isinstance(channel, discord.DMChannel):     
-        await channel.send(embed=embed)
-    else:
-        print("The channel is not a TextChannel or DMChannel")
+    print(_dev)  
+    try:    
+      channel_id = int(_ChannelId)
+      channel = client.get_channel(channel_id)
+      embed = discord.Embed(title="Online", description='Bot is online', color=color.emcolor())
+      if isinstance(channel, discord.TextChannel) or isinstance(channel, discord.DMChannel):     
+          await channel.send(embed=embed)
+      else:
+          print("The channel is not a TextChannel or DMChannel")
+    except:
+        print('Enter Channel id')
     application = await client.application_info()
     owner = application.owner
     embed = discord.Embed(title="Online", description='Bot is online', color=color.emcolor())
@@ -164,18 +167,6 @@ async def on_message(message):
 
 
 
-
-    if message.content == '!embed':
-        embed = discord.Embed(title="Embed Title", description="Embed Description", color=color.emcolor())
-        embed.set_image(url='https://i.imgur.com/wSTFkRM.png')
-        await message.channel.send(embed=embed)
-
-
-
-
-
-
-
 #google serch engine
 
     if message.content.startswith(_google):
@@ -188,9 +179,6 @@ async def on_message(message):
       except:
           embed = discord.Embed(title= _error, description= _errorMsg, color=color.emcolor())
           await message.channel.send(embed=embed)
-
-
-
 
 
 
@@ -218,12 +206,28 @@ async def on_message(message):
         except:
             embed = discord.Embed(title= _error, description= 'This command work only in the channel', color=color.emcolor())
             await message.channel.send(embed=embed)
+
+#developer info
+    if message.content == '.dev':
+        try:
+            url = cmd.dev['img_url']
+            embed = discord.Embed()
+            embed.set_image(url=url)
+            embed.title = 'Developer Info'
+            embed.description = f'**Name:  **Sahan Sandaruwan \n **Web:  ** https://sahansandaruwan.pages.dev \n **GitHub URL: ** https://github.com/sahansandaruwan \n **Repo URL: **https://github.com/sahansandaruwan/bigboss'
+            await message.channel.send(embed=embed)
+            
+        except:
+           embed = discord.Embed(title= _error, description= _errorMsg, color=color.emcolor())
+           await message.channel.send(embed=embed)         
+
+            
+
             
 
 
 
-      
-      
+           
       
 #alive()
 client.run(t_key)

@@ -2,11 +2,11 @@
 config = {
   'pic_url' : 'https://sandaruwan-img-host.pages.dev/88976667.png',
 
-  'TOKEN' : 'Enter_You_BOT_TOKEN',
+  'TOKEN' : 'TOKEN',
 
   'bot_name': '🈹 Big Boss',
 
-  'channel_id':'Channel_id',
+  'channel_id':'CHANNEL_ID  ',
 
   'alive_msg':'Hi I Am Alive',
 
