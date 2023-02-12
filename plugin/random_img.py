@@ -11,7 +11,3 @@ def random_img():
 random_img()
     
   
-  
-        
-        
-      
