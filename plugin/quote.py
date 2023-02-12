@@ -13,4 +13,3 @@ def quote():
   else:
     return 'Bot Have a problem..please contact developer'
 
-
