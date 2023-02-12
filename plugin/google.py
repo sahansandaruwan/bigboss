@@ -5,3 +5,4 @@ def google(message):
         urls = search(query, num_results=10)
         url_str = "🔰"+"\n 🔰".join(urls)
         return url_str
+
