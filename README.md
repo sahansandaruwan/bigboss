@@ -66,7 +66,7 @@ Change the contents of this file ```config.py ```
 | ---      | ---       |
 | Youtube Search |   ✅       |
 | Google Search     |     ✅      |
-| Text Style  |✅|
+| Discord Text Markdown   |✅|
 |Text Spam|✅|
 |Random Image|✅|
 |Random Quote|✅|
@@ -74,7 +74,7 @@ Change the contents of this file ```config.py ```
 |Local RUN|✅|
 |Cloud RUN|❌|
 |Config|✅|
-|Embed Discord message|✅|
+|Embed message|✅|
 |Bot Maintenance|❌|
 |Since|2023/02/15|
 
