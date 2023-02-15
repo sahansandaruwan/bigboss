@@ -326,6 +326,6 @@ async def on_message(message):
 
            
       
-
+alive()
 client.run(t_key)
 
