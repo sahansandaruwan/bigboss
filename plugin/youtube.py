@@ -1,6 +1,5 @@
 
 from youtubesearchpython import VideosSearch
-from pytube import YouTube
 
 def ytsearch(message):
     quary = message.content[4:]
