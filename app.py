@@ -12,6 +12,10 @@ from plugin import color
 from plugin import google
 from plugin import cmd
 from plugin import status
+from plugin import textsty
+from plugin import spam
+from plugin import youtube
+
 
 
 
@@ -72,8 +76,6 @@ async def on_ready():
     await owner.send(embed=embed)
     embed = discord.Embed(title=_MenuName, description=menus(), color=color.emcolor())
     await owner.send(embed=embed)
-    #print(f"Owner ID: {owner.id}")
-
 
 
 @client.event
@@ -219,7 +221,102 @@ async def on_message(message):
             
         except:
            embed = discord.Embed(title= _error, description= _errorMsg, color=color.emcolor())
-           await message.channel.send(embed=embed)         
+           await message.channel.send(embed=embed)    
+
+
+
+#spam message
+    if message.content.startswith('.textspam'):
+        try:
+          num = spam.textspam(message)
+          for i in range(num):
+            await message.channel.send(f'spam number {i}')
+        except:
+          embed = discord.Embed(title= _error, description= _errorMsg, color=color.emcolor())
+          await message.channel.send(embed=embed)              
+
+
+#text markup menu
+    if message.content == '.textmark':
+        try:
+            embed = discord.Embed(title=f"{_BotName} Discord Text Markdown", description=textsty.textstylemenu(), color=color.emcolor())
+            await message.channel.send(embed=embed)
+        except:
+          embed = discord.Embed(title= _error, description= _errorMsg, color=color.emcolor())
+          await message.channel.send(embed=embed)  
+
+    
+#text markup engin 
+    if message.content.startswith('.bold'):
+       textbold = textsty.textbold(message)
+       embed = discord.Embed(title=f"{_BotName} Text Bold", description=textbold, color=color.emcolor())
+       await message.channel.send(embed=embed) 
+
+    if message.content.startswith('.italic'):
+       TextItalic = textsty.TextItalics(message)
+       embed = discord.Embed(title=f"{_BotName} Text Italics", description=TextItalic, color=color.emcolor())
+       await message.channel.send(embed=embed)
+
+    if message.content.startswith('.botalic'):
+       BoldItalic = textsty.BoldItalics(message)
+       embed = discord.Embed(title=f"{_BotName} Bold Italics", description=BoldItalic, color=color.emcolor())
+       await message.channel.send(embed=embed)
+    
+    if message.content.startswith('.underline'):
+       TextUnderlin = textsty.TextUnderline(message)
+       embed = discord.Embed(title=f"{_BotName} Text Underline", description=TextUnderlin, color=color.emcolor())
+       await message.channel.send(embed=embed)
+
+    if message.content.startswith('.codeblock'):
+       CodeBloc = textsty.CodeBlocks(message)
+       embed = discord.Embed(title=f"{_BotName} Code Blocks", description=CodeBloc, color=color.emcolor())
+       await message.channel.send(embed=embed)
+
+    if message.content.startswith('.strike'):
+       Strikethroug = textsty.Strikethrough(message)
+       embed = discord.Embed(title=f"{_BotName} Strikethrough", description=Strikethroug, color=color.emcolor())
+       await message.channel.send(embed=embed)
+
+    if message.content.startswith('.unbolic'):
+       UnderlineBoldItalic = textsty.UnderlineBoldItalics(message)
+       embed = discord.Embed(title=f"{_BotName} Underline Bold Italics", description=UnderlineBoldItalic, color=color.emcolor())
+       await message.channel.send(embed=embed)
+    
+    if message.content.startswith('.blockquote'):
+       BlockQuote = textsty.BlockQuotes(message)
+       embed = discord.Embed(title=f"{_BotName} Block Quotes", description=BlockQuote, color=color.emcolor())
+       await message.channel.send(embed=embed)
+
+#youtube search engin
+    if message.content.startswith('.yt'):
+      try:
+          msg = youtube.ytsearch(message)
+          embed = discord.Embed(title=f"{_BotName} Youtube Search Engine", description=msg, color=color.emcolor())
+          await message.channel.send(embed=embed)
+
+      except:
+          embed = discord.Embed(title= _error, description= _errorMsg, color=color.emcolor())
+          await message.channel.send(embed=embed)
+
+
+
+
+
+    
+      
+       
+
+
+
+            
+
+
+
+            
+        
+        
+            
+                 
 
             
 
@@ -229,6 +326,6 @@ async def on_message(message):
 
            
       
-#alive()
+
 client.run(t_key)
 

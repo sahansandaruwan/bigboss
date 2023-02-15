@@ -40,5 +40,3 @@ def printbanner():
     
     
     """)
-
-    
