@@ -62,6 +62,24 @@ Change the contents of this file ```config.py ```
 ```app.py``` This is the main file. Run this to make the bot work
 #
 
+| Plugin     | Work |
+| ---      | ---       |
+| Youtube Search |   ✅       |
+| Google Search     |     ✅      |
+| Text Style  |✅|
+|Text Spam|✅|
+|Random Image|✅|
+|Random Quote|✅|
+|Discord Server Status|✅|
+|Local RUN|✅|
+|Cloud RUN|❌|
+|Config|✅|
+|Embed Discord message|✅|
+|Bot Maintenance|❌|
+|Since|2023/02/15|
+
+
+
 # Developer
 <div align="center">
 
