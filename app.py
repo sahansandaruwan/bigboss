@@ -3,7 +3,7 @@ import requests
 import os
 import discord
 from plugin import quote
-from alive import alive
+from cloud import alive
 from menu import menus
 from update import reloads
 import config
