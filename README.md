@@ -77,6 +77,8 @@ Change the contents of this file ```config.py ```
 |Embed message|✅|
 |Bot Maintenance|❌|
 |Since|2023/02/15|
+|Can Template Use?|[Download](https://github.com/sahansandaruwan/bigboss/archive/refs/heads/master.zip)|
+
 
 
 
@@ -84,7 +86,7 @@ Change the contents of this file ```config.py ```
 <div align="center">
 
 
-| [![MRwolfia](https://github.com/sahansandaruwan.png?size=150)](https://github.com/sahansandaruwan) | 
+| [![Sahan Sandaruwan](https://github.com/sahansandaruwan.png?size=150)](https://github.com/sahansandaruwan) | 
 |----
  [Sahan Sandaruwan](https://github.com/sahansandaruwan) |
  Developer |
