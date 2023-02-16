@@ -9,14 +9,14 @@ spec:
     - key: TOKEN
       value: Enter TOKEN
     - key: Bot_Name
-      scope: "Big Menu"
+      value: 🈹 Big Boss
     - key: Channel_ID
       value: Channel_ID
     - key: Alive_msg
       value: Channel_ID
     - key: Menu_Name
-      value: "Big Menu"
+      value: 🈹 Big Menu
     - key: pic_url
-      value: "https://sandaruwan-img-host.pages.dev/88976667.png"
+      value: https://sandaruwan-img-host.pages.dev/88976667.png
     
 
