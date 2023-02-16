@@ -7,7 +7,7 @@ def menus():
 
   ```🔰 Alive``` \n .alive
 
-  ```🔰 Update ```\n .update
+  ```🔰 Restart ```\n .restart
 
   ```🔰 Random Picture ```\n .pic
 

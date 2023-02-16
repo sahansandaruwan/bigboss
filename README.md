@@ -79,6 +79,8 @@ Change the contents of this file ```config.py ```
 |Since|2023/02/15|
 |Can Template Use?|[Download](https://github.com/sahansandaruwan/bigboss/archive/refs/heads/master.zip)|
 
+[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/sahansandaruwan/bigboss/tree/main)
+
 
 
 

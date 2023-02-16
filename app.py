@@ -15,6 +15,17 @@ from plugin import status
 from plugin import textsty
 from plugin import spam
 from plugin import youtube
+from plugin import tagall
+
+
+
+   
+   
+
+
+
+
+
 
 
 
@@ -27,7 +38,7 @@ _google = cmd.cmd['google']
 _quote = cmd.cmd['quote']
 _alive = cmd.cmd['alive']
 _list = cmd.cmd['list']
-_update = cmd.cmd['update']
+_restart = cmd.cmd['restart']
 _pic = cmd.cmd['ran_pic']
 _clear = cmd.cmd['clear']
 
@@ -42,9 +53,7 @@ _AliveMsg = config.config['alive_msg']
 _MenuName = config.config['menu_name']
 
 
-# engin
 
-t_key = config.config['TOKEN']
 
 
 #intents = discord.Intents(messages=True, guilds=True)
@@ -129,9 +138,9 @@ async def on_message(message):
 
 
 
-#update
+#restart
 
-    if message.content.startswith(_update):
+    if message.content.startswith(_restart):
       try:
         embed = discord.Embed(title="Update....", description='Restarting....♻', color=color.emcolor())
         await message.channel.send(embed=embed)
@@ -298,7 +307,11 @@ async def on_message(message):
           embed = discord.Embed(title= _error, description= _errorMsg, color=color.emcolor())
           await message.channel.send(embed=embed)
 
-
+    if message.content.startswith('.tagall'):
+            tag = tagall.tagall(message)
+            embed = discord.Embed(title=f"{_BotName} Tag", description=tag, color=color.emcolor())
+            await message.channel.send(embed=embed)
+             
 
 
 
@@ -327,5 +340,12 @@ async def on_message(message):
            
       
 alive()
-client.run(t_key)
+try:
+  t_key = config.config['TOKEN']
+  client.run(t_key)
+except:
+   t_key = os.environ['TOKEN']
+   client.run(t_key)
+
+   
 

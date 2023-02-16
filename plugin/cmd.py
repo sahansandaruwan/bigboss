@@ -17,7 +17,7 @@ cmd = {
     'quote':'.quote',
     'alive':'.alive',
     'list':'.list',
-    'update':'.up',
+    'restart':'.restart',
     'ran_pic':'.pic',
     'clear':'.clear'
 
