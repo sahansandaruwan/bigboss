@@ -72,14 +72,14 @@ Change the contents of this file ```config.py ```
 |Random Quote|✅|
 |Discord Server Status|✅|
 |Local RUN|✅|
-|Cloud RUN|❌|
+|Digital Ocean Diploy|✅|
 |Config|✅|
 |Embed message|✅|
+|Tagall|✅|
 |Bot Maintenance|❌|
 |Since|2023/02/15|
 |Can Template Use?|[Download](https://github.com/sahansandaruwan/bigboss/archive/refs/heads/master.zip)|
-
-[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/sahansandaruwan/bigboss/tree/main)
+|[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/sahansandaruwan/bigboss/tree/main)|✅|
 
 
 
