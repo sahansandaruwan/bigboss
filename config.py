@@ -1,17 +1,15 @@
-import os
-#if you run this bot local on you pc delete this 'TOKEN' : 'TOKEN' All
+
 config = {
-  'pic_url' : os.environ['pic_url'],
+  'pic_url': 'https://sandaruwan-img-host.pages.dev/88976667.png' ,
 
-  'TOKEN' : os.environ['TOKEN'], #'TOKEN' : 'TOKEN'
+  'TOKEN' : 'Enter_You_BOT_TOKEN', 
 
-  'bot_name': os.environ['Bot_Name'],
+  'bot_name': '🈹 Big Boss' ,
 
-  'channel_id':os.environ['Channel_ID'],
+  'channel_id': 'CHANNEL_ID',
 
-  'alive_msg': os.environ['Alive_msg'],
+  'alive_msg': 'Hi I Am Alive',
 
-  'menu_name': os.environ['Menu_Name']
-  
-}
-
+  'menu_name': '🈹 Big Menu',
+    
+  }

@@ -19,6 +19,26 @@ from plugin import tagall
 
 
 
+if os.environ['Diploy'] == True:
+  _BotName = os.environ['Bot_Name']
+  _ChannelId = os.environ['Channel_ID']
+  _AliveMsg = os.environ['Alive_msg']
+  _MenuName = os.environ['Menu_Name']
+  _Tkey = os.environ['TOKEN']
+  _AliveImg = os.environ['pic_url']
+else:
+  _BotName = config.config['bot_name']
+  _ChannelId = config.config['channel_id']
+  _AliveMsg = config.config['alive_msg']
+  _MenuName = config.config['menu_name']
+  _Tkey = config.config['TOKEN']
+  _AliveImg = config.config['pic_url']
+
+   
+
+
+
+
    
    
 
@@ -46,12 +66,6 @@ _error = cmd.msgs['error']
 _errorMsg = cmd.msgs['error_msg']
 _active = cmd.msgs['active']
 _dev = cmd.msgs['dev']
-
-_BotName = config.config['bot_name']
-_ChannelId = config.config['channel_id']
-_AliveMsg = config.config['alive_msg']
-_MenuName = config.config['menu_name']
-
 
 
 
@@ -114,7 +128,7 @@ async def on_message(message):
 
     if message.content.startswith(_alive):
       embed = discord.Embed(title=_AliveMsg, description=_BotName, color=color.emcolor())
-      imgs = config.config['pic_url']
+      imgs = _AliveImg
       embed.set_image(url=imgs)
       await message.channel.send(embed=embed)
 
@@ -340,12 +354,8 @@ async def on_message(message):
            
       
 alive()
-try:
-  t_key = config.config['TOKEN']
-  client.run(t_key)
-except:
-   t_key = os.environ['TOKEN']
-   client.run(t_key)
+
+client.run(_Tkey)
 
    
 
