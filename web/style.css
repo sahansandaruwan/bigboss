@@ -1,0 +1,59 @@
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.body {
+  background-color: #303441;
+  background: #303441;
+
+}
+
+.card{
+  color: #00ff55;
+  border-radius: 30rem;
+  text-align: center;
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.card-title { 
+  animation: flicker 0.3s infinite alternate;
+  color: #000000;
+}
+/* Flickering animation */
+@keyframes flicker {
+    
+  0%, 18%, 22%, 25%, 53%, 57%, 100%{
+
+      text-shadow:
+      0 0 4px #06812f,
+      0 0 11px #06812f,
+      0 0 19px #06812f,
+      0 0 40px #06812f,
+      0 0 80px #06812f,
+      0 0 90px #06812f,
+      0 0 100px #06812f,
+      0 0 150px #06812f;
+
+    
+  
+  }
+  
+  20%, 24%, 55% {        
+      text-shadow: none;
+  }    
+}
+
+
+
+/*
+.main{
+  text-align: center;
+  padding-left: 50%;
+  padding-top: 25%;
+}
+/*
+.main img{
+  border-radius: 2%;
+  box-shadow: 0 10px 10px  rgba(88, 87, 87, 0.2), 0 10px 10px  rgba(224, 193, 193, 0.19);
+}
+*/
