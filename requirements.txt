@@ -5,20 +5,3 @@ googlesearch-python==1.1.0
 youtube-search==2.1.2
 Flask==2.2.2
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
