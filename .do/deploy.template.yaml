@@ -18,7 +18,5 @@ spec:
       value: 🈹 Big Menu
     - key: pic_url
       value: https://sandaruwan-img-host.pages.dev/88976667.png
-    - key: Diploy
-      value: true 
-    
-
+    - key: Deploy
+      value: true
