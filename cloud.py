@@ -5,7 +5,7 @@ app = Flask('')
 
 @app.route('/')
 def home():
-    render_template('index.html')
+    render_template('web/index.html')
 
 def run():
   app.run(host='0.0.0.0',port=8080)
