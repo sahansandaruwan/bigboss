@@ -7,13 +7,13 @@ spec:
       repo_clone_url: https://github.com/sahansandaruwan/bigboss.git
     envs:
     - key: TOKEN
-      value: Enter TOKEN
+      value: TOKEN
     - key: Bot_Name
       value: 🈹 Big Boss
     - key: Channel_ID
       value: Channel_ID
     - key: Alive_msg
-      value: Channel_ID
+      value: Hi There! I Am Alive !
     - key: Menu_Name
       value: 🈹 Big Menu
     - key: pic_url
