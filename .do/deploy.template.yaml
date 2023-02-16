@@ -19,6 +19,6 @@ spec:
     - key: pic_url
       value: https://sandaruwan-img-host.pages.dev/88976667.png
     - key: Diploy
-      bool: False 
+      value: false 
     
 
