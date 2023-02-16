@@ -1,7 +1,7 @@
 spec:
   name: bigboss
   services:
-  - name: Bigboss web server
+  - name: web
     git:
       branch: main 
       repo_clone_url: https://github.com/sahansandaruwan/bigboss.git
