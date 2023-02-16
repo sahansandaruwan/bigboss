@@ -1,8 +1,22 @@
 spec:
   name: bigboss
   services:
-  - environment_slug: python
+  - name: web
     git:
-      branch: master
+      branch: main 
       repo_clone_url: https://github.com/sahansandaruwan/bigboss.git
-    name: bigboss
+    envs:
+    - key: TOKEN
+      value: Enter TOKEN
+    - key: Bot_Name
+      scope: 🈹 Big Boss
+    - key: Channel_ID
+      value: Channel_ID
+    - key: Alive_msg
+      value: Channel_ID
+    - key: Menu_Name
+      value: 🈹 Big Menu
+    - key: pic_url
+      value: https://sandaruwan-img-host.pages.dev/88976667.png
+    
+

@@ -1,8 +1,10 @@
-name: bigboss
+name: my-discord-bot
 services:
 - environment_slug: python
   github:
     branch: main
-    deploy_on_push: true
-    repo: sahansandaruwan/bigboss
-  name: bigboss
+  run_command: python bot.py
+  name: discord-bot-service
+  environment_variables:
+    - value: your-discord-bot-token
+      scope: RUN_AND_BUILD_TIME
