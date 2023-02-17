@@ -72,7 +72,7 @@ Change the contents of this file ```config.py ```
 |Random Quote|✅|
 |Discord Server Status|✅|
 |Local RUN|✅|
-|Digital Ocean Diploy|✅|
+|Digital Ocean Deploy|✅|
 |Config|✅|
 |Embed message|✅|
 |Tagall|✅|
