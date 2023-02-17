@@ -51,6 +51,8 @@ Change the contents of this file ```config.py ```
   'alive_msg':'Hi I Am Alive', #dit
 
   'menu_name':'🈹 Big Menu' #edit
+  
+  'Local_Run': False, #if you run locally type True 
 
 
 ```
