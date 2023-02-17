@@ -11,6 +11,8 @@ config = {
   'alive_msg': 'Hi I Am Alive',
 
   'menu_name': '🈹 Big Menu',
+  
+   'Local_Run': False, #if you run locally type True 
     
   }
 
