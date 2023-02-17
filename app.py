@@ -18,7 +18,7 @@ from plugin import youtube
 from plugin import tagall
 
 
-
+os.environ['Deploy'] = 'none'
 
 if os.environ['Deploy'] == 'deploy':
   _BotName = os.environ['Bot_Name']
