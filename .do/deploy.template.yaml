@@ -19,4 +19,4 @@ spec:
     - key: pic_url
       value: https://sandaruwan-img-host.pages.dev/88976667.png
     - key: Deploy
-      value: Enter deploy word only
+      value: yes
