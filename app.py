@@ -20,7 +20,7 @@ from plugin import tagall
 
 
 
-if os.environ['Deploy'] == 'yep':
+if config.config['Local_Run'] == False:
   _BotName = os.environ['Bot_Name']
   _ChannelId = os.environ['Channel_ID']
   _AliveMsg = os.environ['Alive_msg']
