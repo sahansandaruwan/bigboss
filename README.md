@@ -56,6 +56,18 @@ Change the contents of this file ```config.py ```
 
 
 ```
+#### Before running the bot you will need to install all the requirements with this command:
+
+```python 
+python -m pip install -r requirements.txt 
+```
+#### After that you can start it with
+
+```python
+
+python app.py
+
+```
 
 ```'TOKEN'``` This should include the token of your Discord Bot. [readmore](https://discordpy.readthedocs.io/en/stable/discord.html)
 
