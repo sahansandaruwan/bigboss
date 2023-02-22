@@ -36,26 +36,37 @@
 
 
 ## HOW TO USE 
-#### Change the contents of this file ```config.py ```
+
+### 1. Local deployment
+
+#### First modify this ```config.py``` according to your data
 
 ```python
 
-  'pic_url' : 'https://sandaruwan-img-host.pages.dev/88976667.png', #alive_picture
+  'pic_url' : 'https://sandaruwan-img-host.pages.dev/88976667.png', #https://imgbb.com/ host the image on this website and enter the URL here as in the example
 
-  'TOKEN' : 'Enter_You_BOT_TOKEN', #edit
+  'TOKEN' : 'Enter_You_BOT_TOKEN', #Enter the bot token here
 
-  'bot_name': '🈹 Big Boss', #edit
+  'bot_name': '🈹 Big Boss', #Enter a name of your choice for the bot.
 
-  'channel_id':'CHANNEL_ID', #edit
+  'channel_id':'CHANNEL_ID', #Enter the ID of the channel you created
 
-  'alive_msg':'Hi I Am Alive', #dit
+  'alive_msg':'Hi I Am Alive', 
 
-  'menu_name':'🈹 Big Menu' #edit
+  'menu_name':'🈹 Big Menu' 
   
-  'Local_Run': False, #if you run locally type True 
-
+  'Local_Run': False,  #Set this to true if deploying locally.
 
 ```
+#### You need to download Python to your computer [Download](https://www.python.org/downloads/)
+#### To install the development version, do the following:
+
+```bash
+git clone https://github.com/sahansandaruwan/bigboss.git
+cd bigboss
+
+```
+
 #### Before running the bot you will need to install all the requirements with this command:
 
 ```python 
@@ -73,7 +84,6 @@ python app.py
 
 ```'channel_id'``` Enter your discord channel ID number here. [readmore](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-)
 
-```app.py``` This is the main file. Run this to make the bot work
 #
 
 | Plugin     | Work |
@@ -85,7 +95,7 @@ python app.py
 |Random Image|✅|
 |Random Quote|✅|
 |Discord Server Status|✅|
-|Local RUN|✅|
+|Local deployment|[✅](https://github.com/sahansandaruwan/bigboss/edit/main/README.md#1-local-deployment)|
 |Digital Ocean Deploy|✅|
 |Config|✅|
 |Embed message|✅|
@@ -93,11 +103,9 @@ python app.py
 |Bot Maintenance|❌|
 |Since|2023/02/15|
 |Can Template Use?|[Download](https://github.com/sahansandaruwan/bigboss/archive/refs/heads/master.zip)|
-|[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/sahansandaruwan/bigboss/tree/main)|✅|
 
-
-
-
+### 2. Digital Ocean Deploy 
+[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/sahansandaruwan/bigboss/tree/main)
 # Developer
 <div align="center">
 
