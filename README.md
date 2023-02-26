@@ -102,7 +102,7 @@ python app.py
 |Tagall|✅|
 |Bot Maintenance|❌|
 |Since|2023/02/15|
-|Can Template Use?|[Download](https://github.com/sahansandaruwan/bigboss/archive/refs/heads/master.zip)|
+|Can Template Use?|[Use](https://github.com/sahansandaruwan/bigboss/fork)|
 
 ### 2. Digital Ocean Deploy 
 [![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/sahansandaruwan/bigboss/tree/main)
