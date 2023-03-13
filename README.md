@@ -61,8 +61,10 @@
 #### You need to download Python to your computer [Download](https://www.python.org/downloads/)
 #### To install the development version, do the following:
 
-```bash
+```git
 git clone https://github.com/sahansandaruwan/bigboss.git
+```
+```bash
 cd bigboss
 
 ```
